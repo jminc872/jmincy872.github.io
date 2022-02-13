@@ -48,6 +48,6 @@ body {
 /**************************/
 
 #banner-right {
-	background: url('../img/banner1.jpg');
+	background: blue;
 	height: 100vh;
 }
