@@ -42,3 +42,11 @@ body {
 .nav-link, .nav-link:hover {
 	color: #FEE440;
 }
+
+/**************************/
+/* BANNER */
+/**************************/
+
+#banner-right {
+	background-color: red;
+}
