@@ -48,6 +48,6 @@ body {
 /**************************/
 
 #banner-right {
-	background-color: red;
+	background: red;
 	height: 100vh;
 }
