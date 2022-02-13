@@ -50,4 +50,5 @@ body {
 #banner-right {
 	background: url('../img/banner1.jpg');
 	height: 100vh;
+	width: 50%;
 }
