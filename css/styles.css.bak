@@ -1,0 +1,117 @@
+.main-content {
+	padding: 0% 15%;
+}
+
+.btn, .btn:hover {
+	background-color: #FF865E;
+	border: #FF865E;
+}
+
+/**************************/
+/* NAVBAR */
+/**************************/
+
+.navbar {
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.nav-link, .nav-link:hover {
+	color: #FEE440;
+}
+
+/**************************/
+/* BANNER */
+/**************************/
+
+.banner-info {
+	margin: auto;
+}
+
+.title-image {
+	width: 100%;
+}
+
+#title {
+	background-color: #FEF9EF;
+	padding: 3% 15%;
+}
+
+/**************************/
+/* ARTICLE CARDS */
+/**************************/
+
+.heading {
+	text-align: center;
+	margin: 10% 0%;
+}
+
+.card-overlay {
+	background: rgb(254,228,64);
+	background: linear-gradient(180deg, rgba(254,228,64,1) 30%, rgba(255,134,94,1) 100%); 
+    overflow: hidden;
+}
+
+.card-img-top {
+   object-fit: cover;
+   opacity: 0.4;
+}
+
+.card-title {
+	font-weight: 800;
+	color: #FF865E;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+#footer {
+	background-color: #FF865E;
+	border: none;
+}
+
+#footer h1 {
+	padding: 5%;
+	margin-top: 10%;
+	margin-bottom: 0px;
+}
+
+/**************************/
+/* ARTICLES */
+/**************************/
+
+.article-content {
+	padding: 0% 32.5%;
+}
+
+/**************************/
+/* ARTICLE HEADERS */
+/**************************/
+
+.article-banner {
+	background: linear-gradient(180deg, rgba(254,228,64,0.3) 30%, rgba(255,134,94,0.3) 100%), url('../img/opt-banner-plucking.jpg');
+	background-size: cover;
+	height: 65vh;
+	background-position: center;
+	background-overlay: 
+	opacity: 0.4;
+	position: relative;
+	margin-bottom: 4%;
+}
+
+.article-banner h1 {
+   /* position: absolute; */
+   /* top: 50%; */
+   /* transform: translate(0, -50%) */
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	font-family: sans-serif;
+	font-weight: 800;
+}
